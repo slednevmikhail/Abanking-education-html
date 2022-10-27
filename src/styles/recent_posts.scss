@@ -1,0 +1,69 @@
+.recent_posts{
+  margin-top: 595px;
+  background-color: #edf7fa;
+}
+.recent_posts_info{
+  display: flex;
+  justify-content: space-between;
+}
+.recent_posts_info .view_all{
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  margin-left: 5%;
+  padding-right: 5%;
+  padding-top: 3%;
+  /* Secondry */
+  color: #00A8CC;
+}
+
+.recent_posts_info .posts_info{
+  margin-left: 5%;
+  margin-right: 5%;
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 60px;
+  color: #21243D;
+}
+
+.posts{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  &__item{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    width: 418px;
+    height: 295px;
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+    padding: 24px 20px 7px 20px;
+    &-name{
+      font-style: normal;
+      font-weight: 700;
+      font-size: 26px;
+      color: #21243d;
+    }
+    &-theme{
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      color: #21243d;
+      margin-top: 15px;
+    }
+    &-content{
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      color: #21243d;
+      margin-top: 10px;
+    }
+  }
+}

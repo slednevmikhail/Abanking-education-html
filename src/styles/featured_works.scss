@@ -1,0 +1,71 @@
+
+.featured_works{
+  padding-bottom: 46px;
+  padding-left: 100px;
+  padding-right: 100px;
+  &_title{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    color: #21243D;
+  }
+  &_list_element{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+.featured_work_item{
+  &_article{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243D;
+  }
+  &_properties{
+    &_year{
+      background: #142850;
+      border-radius: 6px;
+      font-family: 'Heebo';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 60px;
+      color: #FFFFFF;
+    }
+    &_category{
+      font-family: 'Heebo';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 29px;
+      margin-left: 2%;
+      color: #8695A4;
+    }
+  }
+  &_content{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    /* Dark Color */
+    color: #21243D;
+  }
+}
+
+.footer_icons{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icon{
+  padding-left: 5px;
+  padding-right: 5px;
+}

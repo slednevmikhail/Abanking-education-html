@@ -1,0 +1,59 @@
+.introduction_name > h1 {
+  position: absolute;
+  width: 506px;
+  height: 105px;
+  left: 148px;
+  top: 228px;
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+  color: #21243D;
+}
+
+.introduction_text > p {
+  position: absolute;
+  width: 497px;
+  height: 66px;
+  left: 148px;
+  top: 373px;
+  font-family: "Heebo", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #21243D;
+}
+
+.download_button {
+  position: absolute;
+  width: 208px;
+  height: 47px;
+  left: 148px;
+  top: 477px;
+  /* Primary */
+  background: #FF6464;
+  border-radius: 2px;
+}
+
+.download_button > a {
+  width: 167px;
+  height: 21px;
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
+.introduction_photo {
+  position: absolute;
+  width: 243px;
+  height: 243px;
+  left: 760px;
+  top: 210px;
+}
+
+/*# sourceMappingURL=introduction.css.map */
